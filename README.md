@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# Learning Management System (LMS)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Learning Management System (LMS) project! This repository contains both the Frontend built with React.js and the Backend powered by Django and Django REST Framework, utilizing SQLite as the database. Our LMS offers a seamless and interactive experience for both educators and learners.
 
-## Available Scripts
+# Frontend
 
-In the project directory, you can run:
+Repository: https://github.com/bhagwati021/Lms_Frontend
 
-### `npm start`
+### Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The frontend is designed using React.js to ensure a smooth, dynamic, and user-friendly experience. The UI/UX is crafted to enable students and teachers to navigate through courses, assignments, and quizzes effortlessly.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Features
 
-### `npm test`
+~ Responsive Design: Optimized for desktops, tablets, and mobile devices.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+~ Dynamic Components: Course details, video playback, quizzes, and more.
 
-### `npm run build`
+~ State Management: Efficiently handles complex interactions using React hooks and state management.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+~ Integration: Communicates with the backend through REST APIs.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Setup Instructions
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Clone the repository:
 
-### `npm run eject`
+    git clone https://github.com/bhagwati021/Lms_Frontend.git
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Navigate to the project directory:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    cd Lms_Frontend
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Install dependencies:
+    
+    npm install
+    pip istall Pillow
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Start the development server:
 
-## Learn More
+    npm start
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Access the frontend at http://localhost:3000.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Tech Stack
 
-### Code Splitting
+- React.js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Axios: For API requests
 
-### Analyzing the Bundle Size
+- Bootstrap: For styling
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- React Router: For navigation
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## BackendAPI: https://github.com/bhagwati021/Lms_Backend 
