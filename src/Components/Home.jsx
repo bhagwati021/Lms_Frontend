@@ -16,7 +16,7 @@ const baseUrl='https://0b749d41-35db-4a9a-9160-94e29b2c7a2f-00-1vp3zltms9cus.sis
 
 const Home = () => {
   useEffect(()=>{
-    document.title='Edu Learning'
+    document.title='Edu WISE'
   })
 
   const icon={
