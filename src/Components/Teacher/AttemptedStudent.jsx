@@ -8,7 +8,7 @@ import Swal from 'sweetalert2'
 import CheckQuizCourse from './CheckQuizCourse'
 import QuizResult from './QuizResult'
 
-const baseUrl='http://127.0.0.1:8000/api'
+const baseUrl='https://0b749d41-35db-4a9a-9160-94e29b2c7a2f-00-1vp3zltms9cus.sisko.replit.dev/api'
 
 const AttemptedStudent = () => {
     useEffect(()=>{

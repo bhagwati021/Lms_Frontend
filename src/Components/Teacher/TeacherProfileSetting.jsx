@@ -5,7 +5,7 @@ import axios from 'axios'
 import { useState } from 'react'
 import Swal from 'sweetalert2'
 
-const baseUrl='http://127.0.0.1:8000/api'
+const baseUrl='https://0b749d41-35db-4a9a-9160-94e29b2c7a2f-00-1vp3zltms9cus.sisko.replit.dev/api'
 
 const TeacherProfileSetting = () => {
     useEffect(()=>{
